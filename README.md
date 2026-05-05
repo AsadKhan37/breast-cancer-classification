@@ -2,7 +2,7 @@ Below is a stronger, portfolio-ready `README.md`. It directly addresses the revi
 
 You should replace the metric values in the **Results** section with the exact numbers from your `results_preprocessed_data.txt` and `results_raw_data.txt`.
 
-````markdown
+
 # Breast Cancer Classification
 
 This project implements a classical machine learning pipeline for breast cancer tumor classification using the **Breast Cancer Wisconsin Diagnostic Dataset** from `scikit-learn`.
