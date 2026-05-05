@@ -216,8 +216,8 @@ Both models were evaluated on the test set using accuracy, precision, recall, F1
 
 | Model                                   |  Accuracy | Precision |    Recall |  F1-score | ROC-AUC | Average Precision |
 | --------------------------------------- | --------: | --------: | --------: | --------: | ------: | ----------------: |
-| Logistic Regression - Raw Data          | Add value | Add value | Add value | Add value |    1.00 |              1.00 |
-| Logistic Regression - Preprocessed Data | Add value | Add value | Add value | Add value |    1.00 |              1.00 |
+| Logistic Regression - Raw Data          | 95        | 0.95      | 0.95      | 0.95      |    1.00 |              1.00 |
+| Logistic Regression - Preprocessed Data | 98        | 0.98      | 0.98      | 0.98      |    1.00 |              1.00 |
 
 The ROC and Precision-Recall curves showed excellent class separation for both models. However, the preprocessed model is preferred because the raw-data model can be affected by feature-scale differences and may produce less reliable coefficient interpretation.
 
