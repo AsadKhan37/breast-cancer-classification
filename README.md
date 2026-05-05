@@ -72,4 +72,6 @@ breast-cancer-classification/
 │   └── metrics.txt
 │
 └── images/
-    └── project_banner.png
+|    └── project_banner.png
+└── model/
+     └──logistic_regression_model.pkl
