@@ -1,10 +1,10 @@
 # Breast Cancer Classification
 
-This project builds a machine learning classification pipeline using the Breast Cancer Wisconsin dataset from `scikit-learn` to predict whether a tumor is **malignant** or **benign**. The project was developed as a structured beginner-to-intermediate classical machine learning workflow, with emphasis on data understanding, preprocessing, model training, evaluation, and clean project organization.
+This project builds a machine learning classification pipeline using the Breast Cancer Wisconsin dataset from `scikit-learn` to predict whether a tumor is **malignant** or **benign**. It was developed as a structured classical machine learning project with emphasis on data understanding, preprocessing, model training, evaluation, and clean project organization.
 
 ## Project Objective
 
-The main objective of this project is to apply the full machine learning pipeline to a real classification problem and understand each stage conceptually, not just run code. The project focuses on:
+The goal of this project is to apply a complete machine learning workflow to a real binary classification problem and understand each step conceptually, not just run code. The project focuses on:
 
 - understanding the dataset and target variable
 - exploring feature distributions
@@ -67,11 +67,14 @@ breast-cancer-classification/
 │   └── evaluate_model.py
 │
 ├── results/
-│   ├── confusion_matrix.png
-│   ├── feature_distributions.png
-│   └── metrics.txt
+│   └── logistic_regression/
+│       ├── confusion_matrix.png
+│       ├── classification_report.txt
+│       ├── metrics.txt
+│       └── feature_distributions.png
+│
+├── models/
+│   └── logistic_regression_model.pkl
 │
 └── images/
-|    └── project_banner.png
-└── model/
-     └──logistic_regression_model.pkl
+    └── project_banner.png
